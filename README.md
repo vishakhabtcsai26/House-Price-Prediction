@@ -28,10 +28,14 @@ The project uses the **California Housing Dataset**, available in `scikit-learn`
 | AveOccup | Average household occupancy |
 | Latitude | Block group latitude |
 | Longitude | Block group longitude |
+<img width="808" height="567" alt="image" src="https://github.com/user-attachments/assets/0d122a1b-a0e9-4814-a9a3-54a1e3037fa6" />
+<img width="784" height="576" alt="image" src="https://github.com/user-attachments/assets/aabf2ed0-e3a3-4b75-bcac-0f8146e5a5fe" />
+
 
 **Target:**
 
 - `Price` – Median house value for California districts (in 100,000s USD).
+<img width="847" height="683" alt="image" src="https://github.com/user-attachments/assets/21cc99e6-b4bf-4223-8793-1b0a0bfc263d" />
 
 ---
 
