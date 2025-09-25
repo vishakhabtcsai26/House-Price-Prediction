@@ -1,27 +1,41 @@
-# House Price Prediction using Machine Learning
+# California House Price Prediction
 
-This project predicts house prices based on features like number of bedrooms, bathrooms, and house size (sqft). The project uses **Python**, **pandas**, and **scikit-learn** for building a machine learning model.
+This project demonstrates **house price prediction** using machine learning techniques on the **California Housing Dataset**. The project compares **Linear Regression** and **XGBoost Regressor** models and evaluates their performance using standard metrics.
 
-## Features
+---
 
-- Data preprocessing and cleaning
-- Train-test split
-- Model training using Random Forest Regressor
-- Evaluation using Mean Squared Error (MSE) and R² Score
-- Predict price for new houses
+## 📂 Project Structure
 
-## Dataset
+- `house_price_prediction.ipynb` – Jupyter Notebook containing the full workflow from data loading, exploration, model training, evaluation, and visualization.
+- `xgboost_house_price_model.pkl` – Saved XGBoost model for later use.
+- `README.md` – Project overview and instructions.
 
-The dataset (`house_data.csv`) contains sample data with the following columns:
+---
 
-- Bedrooms
-- Bathrooms
-- Size(sqft)
-- Price
+## 📝 Dataset
 
-## How to Run
+The project uses the **California Housing Dataset**, available in `scikit-learn`.  
 
-1. Install dependencies:
+**Features:**
+
+| Feature | Description |
+|---------|-------------|
+| MedInc | Median income in block group |
+| HouseAge | Median house age in block group |
+| AveRooms | Average rooms per household |
+| AveBedrms | Average bedrooms per household |
+| Population | Block group population |
+| AveOccup | Average household occupancy |
+| Latitude | Block group latitude |
+| Longitude | Block group longitude |
+
+**Target:**
+
+- `Price` – Median house value for California districts (in 100,000s USD).
+
+---
+
+## ⚙️ Requirements
 
 ```bash
-pip install pandas scikit-learn
+pip install numpy pandas matplotlib seaborn scikit-learn xgboost joblib
